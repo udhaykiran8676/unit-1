@@ -1,0 +1,44 @@
+/*Mobile Default*/
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+
+/* Tablets */
+@media (min-width:600px) {
+    header{
+        color: blue;
+        font-size: 3rem;
+    }
+    .hi{
+    background-color: rgb(168, 38, 201);
+}
+    main{
+        flex-direction: row;
+        background-color: aqua;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+/* Laptops */
+@media (min-width:768px) {
+    main{
+        flex-direction: row;
+        background-color: yellow;
+    }
+}
+
+/* LargeDevice */
+
+@media (min-width:1200px){
+    body{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: orange;
+        color: brown;
+    }
+}
+.hi{
+    background-color: green;
+}
